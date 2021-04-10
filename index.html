@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title > Yoga And Fitness</title>
+    <link rel = "icon" href ="https://cdn.pixabay.com/photo/2019/10/24/19/50/skull-4575123_960_720.png" type = "image/x-icon"> 
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Lobster&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body{
+       
+        font-family: 'Fredoka One';
+
+
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('http://www.fusionfitnessyoga.com/images/slider/slide-2-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+
+        }
+        #quote{
+            font-family: 'Kaushan Script', cursive;
+            float: right;
+            margin-top:-370px;
+            padding: 2px;
+                width:35%;
+                font-size: x-large;
+                color: whitesmoke;
+                }
+       .left{
+            position: absolute; 
+           display:inline-block;
+           left: 23px;
+           top:17px;
+           /* border:2px solid yellow; */
+       }
+       .left img{
+           border: 2px solid black;
+             width:78px ;
+             height: 78px;
+             filter: invert();
+             border-radius: 39px;
+       }
+       .left div{
+           line-height: 19px;
+           text-align: center;
+           font-size:  medium;
+           
+       }
+       .mid{
+           display: block;
+           width: 40%;
+           margin: 20px auto;
+           /* kisi bhi chij ko center krne k liye margin auto */
+        /* border:2px solid yellow; */
+       }
+       .right{
+           position: absolute;
+           right: 34px;
+           top:20px;
+           display: inline-block;
+        /* border:2px solid yellow; */
+       }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        color: thistle;
+        display: inline-block;
+        font-size: 30px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px 13px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+       text-decoration: underline;
+       color:black;
+    }
+    .btn{
+        background-color:black;
+       margin: 0px 9px; 
+       color:white;
+       padding: 6px 29px;
+       /* border:2px solid black; */
+       border-radius: 10px;
+       font-size: 20px;
+         cursor: pointer; 
+         font-family: 'BenchNine', sans-serif;
+ 
+         }
+         .btn:hover{
+             background-color: grey;
+
+         }
+         .container{
+             border: 2px solid white;
+             margin: 66px 22px;
+             padding: 5px 30px;
+             width: 27%;
+           border-radius: 2px;  
+         
+             
+         }
+         .form-group input{
+            font-family: 'BenchNine', sans-serif;
+             text-align: center;
+             display: block;
+             width: 266px;
+             padding: 1px;
+             border: 2px solid black;
+             margin: 13px auto;
+             font-size: 21px;
+             border-radius: 10px;
+         }
+       .container h1{
+            text-align: center;
+            width: 68%;
+         }
+         .container button{
+             display: block;
+             width: 40%;
+             margin:  6px auto;
+
+         }
+         .container label{
+            font-family: 'BenchNine', sans-serif;
+           
+             display: block;
+             width: 266px;
+             padding: 1px;
+             border: 2px solid black;
+             margin: 13px auto;
+             font-size: 21px;
+             border-radius: 10px;
+         }
+</style>
+<body>
+    <header class="class">
+        <!-- left box for logo -->
+      <div class="left">
+         <img src="https://tse2.mm.bing.net/th?id=OIP.qsqWITckAVklWBCXoYmFpQHaHa&pid=Api&P=0&w=300&h=300" alt="" >
+         
+         <div>
+          Yoga & Fitness
+         </div>
+      </div>  
+      <!-- mid box for navigation -->
+      <div class="mid">
+        <ul class="navbar">
+            <li ><a href="#"class="active">Home</a></li>
+            <li ><a href="#">About us</a></li>
+            <li ><a href="#">Fitness & Trainings</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+       <button class="btn">Call us</button>
+       <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+     
+        <h1>Get fit with us</h1>
+        <form action="noaction.php">
+           <div class="form-group">
+         <input type="text" name="" placeholder="Enter your name">
+           </div> 
+           <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Age">
+        </div> 
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div> 
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your choice(yoga/fitness)">
+        </div> 
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div id="quote" class="line">
+        <h3>"DONT BE AFRAID OF BEING A BEGINNER"</h3>
+       
+    </div>
+</body>
+</html>
